@@ -5267,28 +5267,32 @@ window.ccchart.m.Theme = {
     _default: {
         'config': {
             'lineWidth': 2,
+            'bg':'#fff',
             // 背景グラデーション
+            /*
             'bgGradient': {
                 'direction': 'vertical', // vertical|horizontal
                 'from': '#687478',
                 'to': '#222',
-            },
+            },*/
             // X軸の色 Y軸の色
-            'xColor': 'rgba(180,180,180,0.3)',
-            'yColor': 'rgba(180,180,180,0.3)',
+            'xColor': 'rgba(80,80,80,0.3)',
+            'yColor': 'rgba(80,80,80,0.3)',
             // カラーセット
             'colorSet': ['red', '#FF9114', '#3CB000', '#00A8A2', '#0036C0', '#C328FF', '#FF34C0'],
             // 文字列カラー
             'textColors': {
-                'title': '#ccc',
-                'subTitle': '#ddd',
-                'x': '#aaa',
-                'y': '#aaa',
-                'hanrei': '#ccc',
-                'unit': '#aaa',
-                'memo': '#ccc',
+                'title': '#666',
+                'subTitle': '#666',
+                'x': '#666',
+                'y': '#666',
+                'hanrei': '#666',
+                'unit': '#666',
+                'memo': '#666',
             },
             // 影 "useShadow": "no" で影を表示しない
+            'useShadow': 'no',
+            /*
             'shadows': {
                 'hanrei': ['#222', 5, 5, 5],
                 'xline': ['#444', 7, 7, 5],
@@ -5301,7 +5305,7 @@ window.ccchart.m.Theme = {
                 'scatter': ['#222', 5, 5, 5],
                 'heatmap': ['#222', 5, 5, 5],
                 'pie': ['#222', 5, 5, 5],
-            },
+            },*/
         },
     },
     set: function(color) {
